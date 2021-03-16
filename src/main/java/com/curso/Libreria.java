@@ -27,4 +27,8 @@ public class Libreria
         return numero1 - numero2;
     }
     
+    public static int otra(){
+        return 0;
+    }
+    
 }
