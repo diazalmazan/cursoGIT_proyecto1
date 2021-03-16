@@ -1,7 +1,7 @@
 # Notas GIT
 
 ## Instalar en ubuntu
-````sudo apt install git```
+'''sudo apt install git'''
 
 ##   Instalar en debian, redhat, centOS
 sudo yum install git
