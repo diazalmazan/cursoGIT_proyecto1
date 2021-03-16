@@ -1,0 +1,24 @@
+# Ignorar carpeta TARGET partiendo de la raiz
+/target/
+
+# Igonrar una carpeta este donde est en la estrucutura
+target/
+
+# Ignnorar un fichero concreto en cualquier ruta
+Thumbs.db
+
+# Ignorar un archivo con posiciones
+registro????.txt
+
+# Ignorar un archivo con posiciones no conocidas
+registro+.txt
+
+# Ignorar una carpeta con patrones
+/**/ejecucion/log*/*.txt
+
+# Excepciones a una regla anterior, añade el fichero aunque este en una regla anterior
+!final.txt
+
+
+
+

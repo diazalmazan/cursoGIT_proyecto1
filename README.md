@@ -52,7 +52,7 @@ Por defecto trabaja de forma recursiva
 - git add NOMBRE_FICHERO
 - git add NOMBRE_CARPETA
 - git add *
-- git add . (añade carpetas ocultas)
+- git add . (añade archivos / carpetas ocultas)
 
 ### - git rm --cached
 Saca un fichero del STAGING 
