@@ -14,7 +14,7 @@ Descargar de http://git-scm.com/
 
 ## Crear respositorio GIT
 Ejecutar comando dentro de la carpeta RAIZ
-```git init````
+```git init```
 
 
 ## Dentro de GIT
@@ -37,9 +37,9 @@ fichreros
 en directorios                                                  Commits (paquetes de código sellado)
 
 ## Almacenar credenciales remotas en GIT
-Ejecutar $ git config credential.helper store
-Ejecutar $ git config --global credential.helper store
-Realizar un push o pull para que se almacenen automaticamente las credenciales
+- Ejecutar $ git config credential.helper store
+- Ejecutar $ git config --global credential.helper store
+- Realizar un push o pull para que se almacenen automaticamente las credenciales
 
 
 
