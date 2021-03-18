@@ -60,6 +60,7 @@ en directorios                                                  Commits (paquete
 |git branch NOMBRE_RAMA             |Crea una rama nueva
 |git checkout NOMBRE_RAMA           |Cambia de rama, si la rama existe
 |git checkout -b NOMBRE_RAMA        |Cambia de rama y si no existe la crea
+|git checkout ID_COMMIT             |Cambia de commit pero no borra nada
 |git ls-files                       |Lista los archivos en el repositorio GIT
 |git merge "rama a traer"           |Trae los datos de una rama a la rama en la que stamos actualmente
 |git stash save "aqui me he quedado"    |Guarda en el stash "diretorio temporal" el estdo actual de la rama en la que estamos. Solo los archivos controlados por SCM
@@ -75,7 +76,9 @@ en directorios                                                  Commits (paquete
 |git pull                           |Obtiene los datos del repositorio y actualiza el repositorio local y el workspace
 |git diff RAMA1..RAMA2              |Compara dos ramas del mismo repositorio
 |git clone                          |Clona un repositorio en otro directorio para poder cambiar el repositorio remoto
-|git reset                          |Reestablece el workspace al ultimo commit realizado
+|git reset ID_COMMIT                |Reestablece el workspace al commit indicado borrando los commits posteriores
+|git revert ID_COMMMIT              |Genera un Nuevo COMMIT con los datos del commit indicados
+
 
 ## Entorno grafico de GIT
 SourceTree  https://www.sourcetreeapp.com/
