@@ -53,8 +53,8 @@ en directorios                                                  Commits (paquete
 |git commit -m "mensaje"            |Indica al SCM que guarde el paquete de cambios en el REPOSITORIO
 |git commit ammedn --reset-autor    |Hace un commit reescribiendo los comentarios
 |git commit --all -m "mensaje"      |Añade al stagin y hace el comit directamente pero solo de los archivos que estan ya en el reposittorio
-|git config --global user.name "Iván Díaz"  |Cambie el nombre del usuario
-|git config --global user.email i.diaz@ibermatica.com   |Email del usuario
+|git config --global user.name "NOMBRE"  |Cambie el nombre del usuario
+|git config --global user.email "CORREO ELECTRONICO"   |Email del usuario
 |git reset --hard                   |Restaura el WORKSPACE completamente (ojo se pueden perder cambios locales en workspace)
 |git branch                         |Obtiene informacion de las ramas existentes, incando la rama en la que me encuentro
 |git branch NOMBRE_RAMA             |Crea una rama nueva
@@ -68,7 +68,7 @@ en directorios                                                  Commits (paquete
 |git stash pop                      |Saca el ultimo stash y lo pone en la rama actual
 |git stash branch                   |Crea una nueva rama desde la rama actual añadiendo los cambios que hay en el stash
 |git remote                         |Lista los recursos remotos existentes
-|git remote add NOMBRE_REMOTO https://github.com/diazalmazan/cursoGIT_proyecto1.git    |Añade un repositorio externo
+|git remote add NOMBRE_REMOTO https://github.com/xxxxxxx/cursoGIT_proyecto1.git    |Añade un repositorio externo
 |git remote -r NOMBRE_REMOTO        |Elimina un remote del repositorio local
 |git config credential.helper store |Permite almacenar las credenciales en memoria. Despues de ejecutarlo hay que hacer un push o pull para que guarde usuario y contraseña
 |git push NOMBRE_REMOTO             |Envia los cambios en el repostiorio (commit) al repositorio remotos
